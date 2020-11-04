@@ -1,0 +1,175 @@
+body{
+	font-family: 'Arial Narrow' !important;
+}
+
+
+@font-face {
+    font-family: 'Arial Narrow';
+    src: url('ArialNarrow.eot');
+    src: url('ArialNarrow.eot?#iefix') format('embedded-opentype'),
+        url('ArialNarrow.woff2') format('woff2'),
+        url('ArialNarrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[name="chave"].form-control::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+
+.topo{
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.borda-radius-20 input{
+
+	border-radius: 20px;
+	background-color: #da6060 !important;
+	padding: 10px;
+	color: #fff;
+	border: 0;
+	margin-top: 20px;
+
+	
+}
+
+.redes-soci{
+	text-align: center;
+		margin-top: 20px;
+}
+
+.redes-soci img{
+	margin-left: 40px;
+}
+
+.menu{
+	background-color:  #da6060 ;
+	border-bottom: 5px solid #FF0000 ;
+}
+
+.menu-letra-inf{
+	
+	display: flex;
+    flex-direction: row;
+	 
+	justify-content: center;
+}
+
+.menu-letra{	 
+	 
+	justify-content: center;
+	margin: 2px;
+	padding: 10px;
+}
+.menu-letra a{
+	text-decoration: none;
+	color: #fff;
+	  transition: 0.5s;
+	    font-size: 16px;
+	    padding: 10px;
+
+}
+
+.menu-letra a:hover{
+	color: #da6060;
+}
+.menu-letra:hover{
+	transition: 0.5s;
+	background-color: #fff;
+	color: #669966;
+	
+}
+
+
+
+
+.menu-rodape{
+	text-align: center;
+	padding: 10px;
+}
+
+.meun-rodape-info a{
+	color: #999;
+	text-decoration: none;
+	    font-size: 18px;
+}
+.meun-rodape-info{
+		color: #999;
+		    font-size: 18px;
+}
+
+.menu-img img{
+	height: 70px;
+	padding: 7px;
+}
+
+
+.rodape-credits{
+	background-color: #333;
+	color: #999;
+	line-height: 50px;
+}
+
+.footer{
+	background-color:  #669966 ; 
+    background-image: url(http://paraibalog.ga/assets/images/h.jpg);
+    background-repeat: repeat;
+
+
+}
+
+strong{
+ 
+}
+
+
+.rodape-credits img{
+	height: 35px;
+	z-index: 0
+}
+
+.navbar-fixed-top{
+    top: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+.paddin-35{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.menu-mobile{
+	padding: 10px;
+	display: none;
+}
+.menu-mobile div{
+	padding: 5px;
+}
+.menu-mobile div:hover{
+	background-color: #000
+}
+.menu-mobile a{
+	color: #999;
+
+
+}
+    
+
+
+
+
+@media only screen and (max-width:700px){
+
+
+	#botao-menu{
+	display: block;
+}
+
+	.center-inf{
+		line-height: normal;
+	}
+} 
